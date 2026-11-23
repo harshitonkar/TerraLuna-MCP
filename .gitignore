@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.terraluna_venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Local secrets & environment files
+.env
+.env.local
+.env.*.local
+
+# Dynamic runtime UI artifacts
+data/artifacts/*
+!data/artifacts/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Explicitly KEEP the 4 generated .tif scientific raster files
+!data/lunar/*.tif
+!data/earth_analog/*.tif
